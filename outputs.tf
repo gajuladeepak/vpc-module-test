@@ -6,7 +6,7 @@ output "public_subnet_ids" {
     value = module.vpc.public_subnet_ids
 }
 
-# output "vpc" {
+# output "az_info" {
 #     value = module.vpc.az_info
 # }
 
