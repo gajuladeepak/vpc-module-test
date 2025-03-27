@@ -1,4 +1,5 @@
 module "vpc" {
+    #source = "../terraform-aws-vpc"
     source = "git::https://github.com/gajuladeepak/terraform-aws-vpc.git?ref=main"
     # project_name = "expense"
     # environment = "dev"     #instead of keeping here placing them variable file and passing its reference here
